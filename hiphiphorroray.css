@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://static01.nyt.com/images/2016/10/30/arts/30LIVING-DEAD1/30LIVING-DEAD1-videoSixteenByNineJumbo1600-v2.jpg");
+}
+    
+
+h1 {
+    font-size: 100px;
+    color: #151b29;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+    font-size: 50px;
+    color: #151b29;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+h1, h2 { padding:0; margin:0; }
+
+button {
+    background: none;
+    color: black;
+    border: 2px solid;
+    padding: 5px;
+    font-size: 13px;
+    transition: all 0.25s;
+    background-color: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-left: 75px;
+    margin-top: 2em;
+}
+
+button:hover {
+    border-color: red;
+    color: red;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#search {
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}

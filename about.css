@@ -1,0 +1,111 @@
+body {
+    background-image: url("images/psycho-shower.jpg");
+}
+
+h1 {
+    font-size: 100px;
+    color: #151b29;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 1em;
+}
+
+h2 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+button {
+    background: none;
+    color: red;
+    border: 2px solid;
+    padding: 3px;
+    font-size: 13px;
+    transition: all 0.25s;
+    background-color: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    border-color: red;
+    color: red;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+div {
+    display: flex;
+    padding: 20px;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    font-family: 'Zen Maru Gothic', sans-serif;    
+    font-size: 20px;
+    letter-spacing: .2rem;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.nav {
+    position: fixed;
+    background-color: #222;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .3s ease-in-out;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all .3s ease-in-out;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all .3s ease-in-out;
+}
+
+.nav.active {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav.active a {
+    color: #000;
+}
+
+.nav.active.container {
+    padding: 10px 0;
+}
+
+.nav a:hover {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+.sticky-element {
+    position: sticky;
+    top: 10;
+    z-index: 1;
+}
